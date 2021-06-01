@@ -1,0 +1,14 @@
+/* swiper */
+@import url("https://unpkg.com/swiper/swiper-bundle.min.css");
+
+/* header */
+@import "../css/header.css";
+
+/* main */
+@import "../css/main.css";
+
+/* message feedback*/
+@import "../css/message.css";
+
+/* footer */
+@import "../css/footer.css";

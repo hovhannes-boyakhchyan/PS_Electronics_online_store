@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="../img/logo.svg">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cart">
+            <div class="conteiner">
+                <div class="cart__header">
+                    <a class="logo" href="../index.html"><img src="../img/logo.svg" alt="Logo"></a>
+                    <div class="cart__status"></div>
+                </div>
+                <div class="cart__body">
+                    <div class="cart__container"></div>
+                    <div class="payment">
+                        <div class="block_total_cost"></div>
+                        <div class="pay__methods">
+                            <span class="payment_methods">Payment methods</span>
+                            <div class="radio__payment">
+                                <input type="radio" name="Payment" id="cash" checked>
+                                <label for="cash">Cash</label>
+                                <input type="radio" name="Payment" id="card">
+                                <label for="card">Card</label>
+                                <input type="radio" name="Payment" id="credit">
+                                <label for="credit">Credit</label>
+                            </div>
+                            <span class="cards">
+                                <img src="../img/icon/visa.svg" alt="visa">
+                                <img src="../img/icon/mastercard.svg" alt="master">
+                                <img src="../img/icon/maestro.svg" alt="maestro">
+                                <img src="../img/icon/ArCa.svg" alt="arca">
+                            </span>
+                            <div class="control__indicator">
+                                <input type="checkbox" name="control" id="control">
+                                <label for="control">I agree with Тerms and conditions</label>
+                            </div>
+                            <button class="buy"><img src="../img/icon/buy__cart.svg" alt="#"><span>Buy</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="../js/pages/cart.js"></script>
+</body>
+
+</html>
